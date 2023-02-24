@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.one1, .one2, .one3, .one4, .one5 {
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid #333; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-direction: column;
+    box-shadow:inset 0 6px 10px #333;
+}
+.code-color1, .code-color2, .code-color3, .code-color4, .code-color5{
+    letter-spacing: 2px;
+    font-size: 21px;
+    background-color: #fff;
+    color: #333;
+    padding: 4px 8px;
+    border-radius: 3px;
+    box-shadow: 0 6px 10px #333;
+    cursor: pointer;
+}
+.onelock, .twolock, .threelock, .fourlock, .fivelock {
+    display: none;
+}
+
+.openone, .opentwo, .openthree, .openfour, .openfive {
+    display: block;
+    font-size: 22px;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .code-color1, .code-color2, .code-color3, .code-color4, .code-color5 {
+        transform: rotate(90deg);
+    }
+    .one1, .one2, .one3, .one4, .one5 {
+        gap: 90px;
+    }
+  }
