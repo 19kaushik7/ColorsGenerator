@@ -175,5 +175,10 @@ function updateColor() {
 
 }
 
-
+//  For Mobile
+let colorGenerate = document.querySelector('#colorGenerate');
+colorGenerate.addEventListener('click', () => {
+    color = [];
+    updateColor();
+})
 updateColor();
