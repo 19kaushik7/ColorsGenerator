@@ -72,4 +72,16 @@
     .one1, .one2, .one3, .one4, .one5 {
         gap: 90px;
     }
+      #colorGenerate {
+        display: block;
+        left: 39%;
+
+    }
+  }
+ @media only screen and (max-width: 400px) {
+    #colorGenerate {
+        display: block;
+        left: 32%;
+
+    }
   }
